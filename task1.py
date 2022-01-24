@@ -19,9 +19,6 @@ example assertion:
 assert sentence("Hello") == "Hello Benjamin. How are you"
 assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Have you enjoyed your meal"
 
-(2 points) 
-"""
-
 def sentence():
   return ""
 
@@ -29,3 +26,24 @@ def sentence():
 if __name__ == "__main__":
   assert sentence("Hello") == "Hello Benjamin. How are you"
   assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Have you enjoyed your meal"
+
+(2 points) 
+"""
+
+a = "Hello"
+b = "Benjamin"
+c = "How are you"
+
+def sentence(a,b,c):
+  if b == " ":
+    b = "Benjamin"
+  if c == " ":
+    c == "How are you"
+  return a + " " + b + ". " +  c
+
+
+x = sentence(a,b,c)
+print(x)
+
+
+

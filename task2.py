@@ -13,3 +13,24 @@ example assertion:
 assert multiplication(5) == [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
 assert multiplication(2,5) == [2, 4, 6, 8, 10]
 """
+
+x = 2
+
+y = " "
+
+def multiply(x,y):
+ if y == " ":
+  y = 12
+ list = []
+ p = 0
+ x1 = x
+ while True:
+   list.append(x)
+   x = x + x1
+   p = p + 1 
+   if p == y:
+    return(list)
+ 
+ 
+t = multiply(x,y)
+print(t)
