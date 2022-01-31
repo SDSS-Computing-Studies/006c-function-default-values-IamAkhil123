@@ -12,5 +12,15 @@ example assertion:
 assert title("*") == "*********\n* Title *\n*********"
 assert title() == "=========\n= Title =\n========="
 (2 points)
-
 """
+
+x = " "
+def title(x):
+ if x == " ":
+  x = "="
+ return(x+x+x+x+x+x+x+x+x+"\n"+x+" Title "+x+"\n"+x+x+x+x+x+x+x+x+x)
+
+y = title(x)
+print(y)
+
+
