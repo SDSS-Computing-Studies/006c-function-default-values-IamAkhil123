@@ -1,4 +1,17 @@
 #!python3
+
+x = 5
+y = 12
+
+def mutiplication(x,y):
+ z = 0
+ if z == y:
+  print(list)
+while z == y:
+  x = x + x
+  list.append(x)
+  z = z + 1
+
 """
 Create a function called multiplication that takes 2 input paremeters:
 number: integer.  
