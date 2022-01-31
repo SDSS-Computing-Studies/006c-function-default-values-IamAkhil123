@@ -1,5 +1,20 @@
 #!python3
 
+a = "Hello"
+b = "Benjamin"
+c = "How are you"
+
+def sentence(a,b,c):
+  if b == " ":
+    b = "Benjamin"
+  if c == " ":
+    c == "How are you"
+  return a + " " + b + ". " +  c
+
+
+x = sentence(a,b,c)
+print(x)
+
 """
 Create a function called sentence() that takes 3 input paremters:
 greeting: string that will contain a salutation, examples: Hello, Hiya, Ola
@@ -29,21 +44,6 @@ if __name__ == "__main__":
 
 (2 points) 
 """
-
-a = "Hello"
-b = "Benjamin"
-c = "How are you"
-
-def sentence(a,b,c):
-  if b == " ":
-    b = "Benjamin"
-  if c == " ":
-    c == "How are you"
-  return a + " " + b + ". " +  c
-
-
-x = sentence(a,b,c)
-print(x)
 
 
 
